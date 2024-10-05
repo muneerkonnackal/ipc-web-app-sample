@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import logo from '../assets/logo.PNG'
+import logo from '../assets/logo.png'
 import { CiGlobe } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
 

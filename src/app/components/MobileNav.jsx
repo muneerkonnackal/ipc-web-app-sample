@@ -11,7 +11,7 @@ import {
 import { AiOutlineMenu } from "react-icons/ai";
 import { TiArrowSortedDown } from "react-icons/ti";
 import Image from "next/image";
-import logo from '../assets/logo.PNG'
+import logo from '../assets/logo.png'
 function MobileNav() {
   const [showIndiaDropdown, setShowIndiaDropdown] = useState(false);
   const [showAboutUsDropdown, setShowAboutUsDropdown] = useState(false);

@@ -1,7 +1,7 @@
 import Image from "next/image"
-import img1 from "../assets/wall2.JPG"
-import img2 from "../assets/wall3.JPG"
-import img3 from "../assets/wallpaper.JPG"
+import img1 from "../assets/wall2.jpg"
+import img2 from "../assets/wall3.jpg"
+import img3 from "../assets/wallpaper.jpg"
 
 const latestUpdates = [
     {
