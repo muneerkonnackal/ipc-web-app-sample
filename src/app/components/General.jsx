@@ -19,33 +19,33 @@ function General() {
             <div className='w-full grid grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-3 text-center xl:grid xl:grid-cols-6 '>
                 <div className='flex flex-col h-[400px] items-center justify-center gap-2'>
                     <Image src={img1} alt='img' className='object-cover h-full' loading='lazy' width={236} height={265}/> 
-                    <h2 className='font-semibold'>Pr.Dr.T Valson Abraham</h2>
-                    <h4 className='text-red-600 text-sm font-semibold'>GENERAL PRESIDENT</h4>
+                    <h2 className='font-semibold text-[14px]'>Pr.Dr.Philip P Thomas</h2>
+                    <h4 className='text-red-600 text-[12px]'>GENERAL VICE PRESIDENT</h4>
                 </div>
                 <div className='flex flex-col h-[400px] items-center justify-center gap-2'>
                     <Image src={img2} alt='img' className='object-cover h-full' loading='lazy' width={236} height={265}/> 
-                    <h2 className='font-semibold'>Pr.Dr.T Valson Abraham</h2>
-                    <h4 className='text-red-600 text-sm font-semibold'>GENERAL PRESIDENT</h4>
+                    <h2 className='font-semibold text-[14px]'>Pr.Dr.Baby Varghese</h2>
+                    <h4 className='text-red-600 text-[12px]'>GENERAL SECRETARY</h4>
                 </div>
                 <div className='flex flex-col h-[400px] items-center justify-center gap-2'>
                     <Image src={img3} alt='img' className='object-cover h-full' loading='lazy' width={236} height={265}/> 
-                    <h2 className='font-semibold'>Pr.Dr.T Valson Abraham</h2>
-                    <h4 className='text-red-600 text-sm font-semibold'>GENERAL PRESIDENT</h4>
+                    <h2 className='font-semibold text-[14px] '>Dr.John Joseph</h2>
+                    <h4 className='text-red-600 text-[12px]'>GENERAL TREASURER</h4>
                 </div>
                 <div className='flex flex-col h-[400px] items-center justify-center gap-2'>
                     <Image src={img4} alt='img' className='object-cover h-full' loading='lazy' width={236} height={265}/> 
-                    <h2 className='font-semibold'>Pr.Dr.T Valson Abraham</h2>
-                    <h4 className='text-red-600 text-sm font-semibold'>GENERAL PRESIDENT</h4>
+                    <h2 className='font-semibold text-[14px]  '>Pr.Thomas George</h2>
+                    <h4 className='text-red-600 text-[12px]'>GENERAL PRESIDENT</h4>
                 </div>
                 <div className='flex flex-col h-[400px] items-center justify-center gap-2'>
-                    <Image src={img5} alt='img' className='object-cover h-full' loading='lazy' width={236} height={265}/> 
-                    <h2 className='font-semibold'>Pr.Dr.T Valson Abraham</h2>
-                    <h4 className='text-red-600 text-sm font-semibold'>GENERAL PRESIDENT</h4>
+                    <Image src={img5} alt='img' className='object-cover h-full ' loading='lazy' width={236} height={265}/> 
+                    <h2 className='font-semibold text-[14px] '>Pr.Thomas George</h2>
+                    <h4 className='text-red-600 text-[12px] '>GENERAL JOINT SECRETARY <br />(PASTORS)</h4>
                 </div>
-                <div className='flex flex-col h-[400px] items-center justify-center gap-2'>
-                    <Image src={img6} alt='img' className='object-cover h-full'idth={236} height={265}  loading='lazy'/> 
-                    <h2 className='font-semibold'>Pr.Dr.T Valson Abraham</h2>
-                    <h4 className='text-red-600 text-sm font-semibold'>GENERAL PRESIDENT</h4>
+                <div className='flex flex-col h-[422px] items-center justify-center gap-2'>
+                    <Image src={img6} alt='img' className='object-cover h-full' width={236} height={265}  loading='lazy'/> 
+                    <h2 className='font-semibold text-[14px]'>Dr.Kachanathu Varkey Abraham</h2>
+                    <h4 className='text-red-600 text-[12px]'>GENERAL JOINT SECRETARY <br />(BELIEVERS)</h4>
                 </div>
                 
             </div>
