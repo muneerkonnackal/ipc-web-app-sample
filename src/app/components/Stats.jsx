@@ -29,12 +29,12 @@ const Stats = () => {
     <section className="bg-mybgimg ">
        <div className="bg-blackOverlay">
             <div className="container mx-auto flex items-center justify-center xl:max-w-[80vw]" >
-                <div className="flex xl:flex-row  lg:flex-row flex-col items-center  justify-center  h-auto pt-10 py-10 xl:pt-0 xl:py-0 xl:h-[50vh] w-full gap-10 ">
+                <div className="flex xl:flex-row  lg:flex-row flex-col items-center  justify-center  h-auto pt-10 py-10  xl:pt-0 xl:py-0 xl:h-[50vh] w-full gap-10 ">
                     {stats.map((item,index)=>{
                         return(
                             <div key={index} className="flex flex-col flex-1 items-center justify-center gap-5  ">
                                 <div className="flex flex-col items-center justify-center text-white bg-white/20 h-[180px] gap-2 
-                                 xl:w-[350px] w-[350px] lg:w-[250px]  pt-14 pb-14 pl-10 pr-10 rounded ">
+                                 xl:w-[350px] w-[320px] lg:w-[250px]  pt-14 pb-14 pl-10 pr-10 rounded ">
                                     <CountUp
                                         className="text-6xl font-semibold"
                                         end={item.num}

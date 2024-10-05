@@ -23,13 +23,13 @@ function MobileNav() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetDescription className="flex flex-col items-center gap-5 text-xl text-white mt-20">
+          <SheetDescription className="flex flex-col items-center gap-5 text-xl text-white mt-12">
 
             <div className="flex justify-center flex-col items-center">
                 <Image src={logo} alt="logo" height={150 } width={150 }/>
-                <h2 className="font-semibold">THE INDIA PENTACOSTAL CHURCH OF GOD</h2>
+                <h2 className="font-semibold text-lg">THE INDIA PENTACOSTAL CHURCH OF GOD</h2>
             </div>
-           <div className="flex flex-col items-center gap-5 text-xl text-white mt-5">
+           <div className="flex flex-col items-center gap-4 text-xl text-white ">
                 <nav>Home</nav>
     
                 {/* India Dropdown */}

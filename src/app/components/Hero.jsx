@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 function Hero() {
   return (
     <div className="xl:h-[80vh] md:min-h-[50vh]  xl:bg-black/60 xl:flex items-center justify-center">
-      <div className="  min-h-[70vh] lg:min-h-[70vh]  gap-7 w-full flex flex-col lg:grid lg:grid-cols-5 xl:grid xl:grid-cols-5    bg-[radial-gradient(circle,_rgba(4,25,129,1)_0%,_rgba(0,16,100,1)_31%)]">
-        <motion.div className="flex justify-center lg:justify-end lg:items-center lg:mt-[15px]   xl:justify-end mt-16 xl:mt-0 items-center xl:col-span-2 lg:col-span-2"
+      <div className="  min-h-[70vh] lg:min-h-[70vh]  gap-7 w-full flex flex-col items-center justify-center lg:grid lg:grid-cols-5 xl:grid xl:grid-cols-5    bg-[radial-gradient(circle,_rgba(4,25,129,1)_0%,_rgba(0,16,100,1)_31%)]">
+        <motion.div className="flex justify-center lg:justify-end lg:items-center lg:mt-[15px]   xl:justify-end  xl:mt-0 items-center xl:col-span-2 lg:col-span-2"
         initial={{ x: -100, scale: 0.8, opacity: 0 }} 
         animate={{ x: 0, scale: 1, opacity: 1 }} 
         // transition={{ duration: 0.5, ease: "easeInOut" }} 
